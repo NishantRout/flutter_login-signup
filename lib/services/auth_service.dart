@@ -34,6 +34,11 @@ class AuthService {
   }
 
   static void login(String email, String password) async {
-      _auth.signInWithEmailAndPassword(email: email, password: password);
+    try {
+     await _auth.signInWithEmailAndPassword(email: email, password: password);
+    }
+    catch(e){
+      print(e);
+    }
   }
 }
