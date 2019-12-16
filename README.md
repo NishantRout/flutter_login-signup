@@ -1,6 +1,6 @@
 # flutter_ecomapp
 
-Ecommerce flutter app
+Login/Signup flutter app
 
 ## Getting Started
 
